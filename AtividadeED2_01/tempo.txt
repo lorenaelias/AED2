@@ -1,0 +1,32 @@
+// ESTATICA SEQUENCIAL
+
+insere final
+2401ms
+1677ms
+2631ms
+2051ms
+3297ms
+
+insere inicio
+1388ms 
+2162ms 
+5115ms
+1618ms
+2649ms
+
+// DINAMICA ENCADEADA
+
+insere final
+5047ms
+9211ms
+14428ms
+21599ms
+29932ms
+
+insere inicio
+2241ms
+5249ms
+7638ms
+9426ms
+11781ms
+
