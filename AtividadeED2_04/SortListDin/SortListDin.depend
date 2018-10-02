@@ -1,0 +1,20 @@
+# depslib dependency file v1.0
+1458583174 source:d:\sortlistdin\listadinencad.c
+	<stdio.h>
+	<stdlib.h>
+	"ListaDinEncad.h"
+
+1458583205 d:\sortlistdin\listadinencad.h
+
+1458583192 source:d:\sortlistdin\main.c
+	<stdio.h>
+	<stdlib.h>
+	"ListaDinEncad.h"
+
+1538509461 source:c:\users\lola\documents\aed2\atividadeed2_04\sortlistdin\listadinencad.c
+	<stdio.h>
+	<stdlib.h>
+	"ListaDinEncad.h"
+
+1538509468 c:\users\lola\documents\aed2\atividadeed2_04\sortlistdin\listadinencad.h
+
