@@ -1,0 +1,26 @@
+1. subgrafo - seja g(v,a) e gs(vs,as)
+vs é subconj de v
+as é subconj de a
+
+2. bipartido - arestas conectam apenas os vertices que estao em subconjs diferentes
+
+3. conexo - existe caminho ligando quaisquer dois vertices
+   desconexo - existe vertice nao conexo
+
+4. isomorfos - quando existir uma funcao que faz o mapeamento de vertices e arestas de modo que 2 grafos coincidam
+
+5. hamiltoniano - possui caminho que visita todos os vertices apenas uma vez
+
+6. euleriano - possui ciclo que passa por todas as arestas apenas uma vez
+
+
+
+dfs iterativo
+
+cria pilha
+empilha o no v
+1-enquanto a pilha nao estiver vazia:
+	desempilha v
+	se v ja foi encontrado ignora e volta para 1
+	senao processa os nos adjacentes nao encontrados
+	faz isso pra cada aresta

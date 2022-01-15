@@ -1,0 +1,8 @@
+float me
+me 0
+int ind vetor[] 10
+for ind 0 ind < 10 ind ++
+scanf %d & vetor[] ind
+me me vetor[] ind
+me me 5
+printf %f me

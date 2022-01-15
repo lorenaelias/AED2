@@ -1,0 +1,11 @@
+Hashing
+
+Um método de pesquisa com o uso da transformação de chave é constituído de duas etapas principais:
+a. Computar o valor da função de transformação, a qual transforma a chave de pesquisa em um endereço da
+tabela. 
+b. Considerando que duas ou mais chaves podem ser transformadas em um mesmo endereço de tabela, é necessário existir um método para lidar com colisões.
+
+1. A matemática por trás do paradoxo do aniversário é usada num ataque criptográfico bastante difundido, conhecido como ataque do aniversário. O ataque do aniversário é usado principalmente para quebrar funções hash, como MD4, MD5, SHA, etc. Como estas funções estão diretamente ligadas a assinaturas digitais, além da autenticação e datação de documentos, estão diretamente relacionadas a este tipo de ataque que pode reduzir, e muito, a procura das chamadas colisões.
+
+2. Detectar quando todas as posições possíveis para espalhamento foram acessadas:
+for 0 até tamanho da tabela e ir fazendo sondagem linear

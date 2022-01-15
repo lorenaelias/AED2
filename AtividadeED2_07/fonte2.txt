@@ -1,0 +1,9 @@
+int ind vet[] 5
+for ind 0 ind < 5 ind ++
+scanf %d & vet[] ind
+float media
+media 0
+for ind 0 ind < 5 ind ++
+media media + vet[] ind
+media media 5;
+printf %f media
