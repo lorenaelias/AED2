@@ -34,3 +34,16 @@
 
 1534935185 c:\users\lola\desktop\aed2_lab1\listasequencial.h
 
+1538224404 source:c:\users\lola\documents\aed2\atividadeed2_01\listadinencad.c
+	<stdio.h>
+	<stdlib.h>
+	"ListaDinEncad.h"
+
+1457033504 c:\users\lola\documents\aed2\atividadeed2_01\listadinencad.h
+
+1534936930 source:c:\users\lola\documents\aed2\atividadeed2_01\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	"ListaDinEncad.h"
+

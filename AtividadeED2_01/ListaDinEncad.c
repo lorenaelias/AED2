@@ -10,7 +10,6 @@ struct elemento{
 typedef struct elemento Elem;
 
 Lista* cria_lista(){
-    printf("D\n");
     Lista* li = (Lista*) malloc(sizeof(Lista));
     if(li != NULL)
         *li = NULL;

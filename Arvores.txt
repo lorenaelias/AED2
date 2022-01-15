@@ -1,0 +1,53 @@
+1. arvore é um tipo especial de grafo
+  -conjunto de nós(vertices) e arestas
+  -qualquer par de vertices está conectados a apenas uma aresta
+  -grafo nao direcionado, aciclico e conexo
+
+pre-ordem
+visita a raiz, 
+percorre subarvore esq em pre ordem
+percorre subarvore dir em pre ordem
+
+em-ordem
+percorre subarvore esq em ordem
+visita a raiz,
+percorre subarvore dir em ordem
+
+pos-ordem
+percorre subarvore esq em ordem
+percorre subarvore dir em ordem
+visita a raiz.
+
+OBS.
+ visitar a raiz significa que voce tem ela em maos para fazer operaçoes desejadas
+ esses codigos de percorrimento da arvore sao uteis para implementacao de outras funcoes
+
+21. diferença de ABB para AVL
+uma AVL é uma ABB balanceada.
+uma ABB é AVL:
+  -se para todo nó, a diferenca da altura das subarvores esquerda e direita do nó é -1,0 e 1.
+  -cada nó tem um campo fb(fator de balanceamento) que guarda a diferenca entre a altura das subarvores esquerda e direita do nó.
+
+23.
+N = (2^h) -1 , N é o numero de nós, h é a altura da arvore.
+
+42.
+Uma AVL é uma ABB balanceada. Para que ela fique balanceada são utilizadas rotacoes de acordo com o problema gerado na inserçao e remocao de um nó. 
+
+43. arvores balanceadas
+ vantagem
+  -o balanceamento da arvore melhora desempenho da busca
+
+ desvantagem
+  -o codigo é muito mais complexo
+  -insercao e remocao tem um custo alto, muitas mudancas de ponteiros e rotacoes
+
+Na prática, a árvore AVL é mais rápida na
+operação de busca, e mais lenta nas
+operações de inserção e remoção
+
+No pior caso, uma operação de remoção pode exigir
+O(log N) rotações na árvore AVL, mas apenas 3
+rotações na árvore Rubro-Negra
+
+
